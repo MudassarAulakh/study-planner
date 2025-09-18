@@ -1,0 +1,41 @@
+Project Description: StudyBuddy – Smart Study Planner (with Gemini AI)
+:dart: Goal:
+Build a full-stack study planner app using Next.js that helps students organize their study time. The app will use Gemini AI (Google) to create personalized study tasks based on the student’s input.
+:brain: What the App Will Do:
+Allow students to sign up and log in
+Ask for study preferences:
+Subject (e.g., Math, Science)
+Time available per day
+Difficulty level (Easy, Medium, Hard)
+Send this data to Gemini AI
+Gemini will return a list of study tasks (4–6 per request)
+Show these tasks on the dashboard
+Let students:
+Mark tasks as completed
+Delete tasks
+See their study progress
+:computer: Pages You Will Create:
+/signup – Register a new student
+/login – Login page
+/generate-tasks – Form to get AI-generated tasks
+/dashboard – View all tasks, mark as done, delete
+:gear: Tech Stack:
+PartTechnologyFrontendNext.js (App Router)StylingTailwind CSSAuthNextAuth.js (or JWT)DatabaseMongoDB + MongooseAI IntegrationGemini AI API (Free Tier)
+:robot_face: Gemini AI Prompt Example:
+You will send a prompt like:
+text
+Create 5 study tasks for a 9th grade student studying Science. The student has 1.5 hours available and prefers medium-level difficulty.
+Gemini will return:
+Task 1: Revise Chapter 4 – Ecosystems
+Task 2: Watch one video on Food Chains
+Task 3: Make flashcards for 10 key terms
+Task 4: Do 3 practice questions
+Task 5: Review notes from last test
+You will display these tasks on the dashboard and save them in MongoDB.
+:technologist: What You'll Learn:
+Full-stack development with Next.js
+API integration with
+Google Gemini AI
+Connecting frontend and backend
+Working with forms, MongoDB, and dashboards
+Sending custom AI prompts and displaying results
